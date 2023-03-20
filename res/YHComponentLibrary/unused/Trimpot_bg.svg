@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 27.3.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1"
+	 id="svg111794" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 17.9 17.9"
+	 style="enable-background:new 0 0 17.9 17.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#0A0A0A;}
+	.st1{fill:url(#SVGID_1_);}
+	.st2{fill:url(#SVGID_00000030446342499101357380000015120230800778458528_);}
+	.st3{opacity:0.4;enable-background:new    ;}
+	.st4{opacity:0.43;fill:#F90000;enable-background:new    ;}
+</style>
+<circle class="st0" cx="8.9" cy="8.9" r="8.9"/>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="-2317.6343" y1="3941.2388" x2="-2301.4397" y2="3941.2388" gradientTransform="matrix(0 1 1 0 -3932.3108 2318.4648)">
+	<stop  offset="0" style="stop-color:#FFFBFD"/>
+	<stop  offset="1" style="stop-color:#000000"/>
+</linearGradient>
+<circle class="st1" cx="8.9" cy="8.9" r="8.1"/>
+<linearGradient id="SVGID_00000066515224350927831120000003688645804909576325_" gradientUnits="userSpaceOnUse" x1="183.8182" y1="-5046.4502" x2="200.0128" y2="-5046.4502" gradientTransform="matrix(3.688038e-08 1 -1 3.688038e-08 -5037.5225 -182.9875)">
+	<stop  offset="0" style="stop-color:#FF0006"/>
+	<stop  offset="1" style="stop-color:#2E2E2E"/>
+</linearGradient>
+<circle style="fill:url(#SVGID_00000066515224350927831120000003688645804909576325_);" cx="8.9" cy="8.9" r="8.1"/>
+<circle class="st3" cx="8.9" cy="8.9" r="6.9"/>
+<circle class="st4" cx="8.9" cy="8.9" r="6.9"/>
+</svg>

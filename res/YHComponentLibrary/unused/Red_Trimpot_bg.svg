@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="svg111794" xmlns="http://www.w3.org/2000/svg" width="6.3mm" height="6.3mm" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17.86 17.86">
+  <defs>
+    <linearGradient id="b" x1="-2317.63" y1="3941.24" x2="-2301.44" y2="3941.24" gradientTransform="translate(-3932.31 2318.46) rotate(90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fffbfd"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="c" x1="183.82" y1="-5046.45" x2="200.01" y2="-5046.45" gradientTransform="translate(-5037.52 -182.99) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff0006"/>
+      <stop offset="1" stop-color="#2e2e2e"/>
+    </linearGradient>
+  </defs>
+  <circle cx="8.93" cy="8.93" r="8.93" style="fill: #0a0a0a;"/>
+  <circle cx="8.93" cy="8.93" r="8.1" style="fill: url(#b);"/>
+  <circle cx="8.93" cy="8.93" r="8.1" style="fill: url(#c);"/>
+  <circle cx="8.93" cy="8.93" r="6.91" style="isolation: isolate; opacity: .4;"/>
+  <circle cx="8.93" cy="8.93" r="6.91" style="fill: #f90000; isolation: isolate; opacity: .43;"/>
+</svg>

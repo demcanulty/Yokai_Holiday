@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 25.2.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   sodipodi:docname="new_Trimpot_bg.svg"
+   xml:space="preserve"
+   enable-background="new 0 0 17.85552 17.85938"
+   viewBox="0 0 17.85552 17.85938"
+   height="17.85938px"
+   width="17.85552px"
+   y="0px"
+   x="0px"
+   id="svg111794"
+   version="1.0"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs25" /><sodipodi:namedview
+   id="namedview23"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   showgrid="false"
+   inkscape:zoom="57.504793"
+   inkscape:cx="5.8864658"
+   inkscape:cy="8.9905549"
+   inkscape:window-width="2170"
+   inkscape:window-height="1344"
+   inkscape:window-x="41"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="svg111794" />
+<circle
+   fill="#0A0A0A"
+   cx="8.92779"
+   cy="8.92779"
+   r="8.92779"
+   id="circle2" />
+<linearGradient
+   id="SVGID_1_"
+   gradientUnits="userSpaceOnUse"
+   x1="-2317.63428"
+   y1="-3827.85278"
+   x2="-2301.4397"
+   y2="-3827.85278"
+   gradientTransform="matrix(0 1 -1 0 -3818.92505 2318.46484)">
+	<stop
+   offset="0"
+   style="stop-color:#FFFBFD"
+   id="stop4" />
+	<stop
+   offset="1"
+   style="stop-color:#000000"
+   id="stop6" />
+</linearGradient>
+<circle
+   fill="url(#SVGID_1_)"
+   cx="8.92779"
+   cy="8.92779"
+   r="8.09732"
+   id="circle9" />
+<linearGradient
+   id="SVGID_2_"
+   gradientUnits="userSpaceOnUse"
+   x1="183.81821"
+   y1="5065.83594"
+   x2="200.01283"
+   y2="5065.83594"
+   gradientTransform="matrix(3.688038e-08 1 1 -3.688038e-08 -5056.9082 -182.98755)">
+	<stop
+   offset="0"
+   style="stop-color:#FFFBFD"
+   id="stop11" />
+	<stop
+   offset="1"
+   style="stop-color:#2E2E2E"
+   id="stop13" />
+</linearGradient>
+<circle
+   fill="url(#SVGID_2_)"
+   cx="8.9277897"
+   cy="8.9277897"
+   r="8.0973196"
+   id="circle16"
+   style="display:inline;fill:#ff0000" />
+<circle
+   opacity="0.4"
+   enable-background="new    "
+   cx="8.9277897"
+   cy="8.9277897"
+   r="6.9053898"
+   id="circle18"
+   style="display:inline;fill:#ff0000" />
+<circle
+   opacity="0.43"
+   enable-background="new    "
+   cx="8.9277897"
+   cy="8.9277897"
+   r="6.9053898"
+   id="circle20"
+   style="display:inline;fill:#ff0000" />
+</svg>
