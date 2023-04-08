@@ -19,3 +19,15 @@
 
 
 ![alt text](https://raw.githubusercontent.com/demcanulty/Yokai_Holiday/main/res/Readme_illustrations/TAPS_documentation.png)
+
+
+## Usage Notes
+
+If the clock input is unsteady, the read/write pointers could encounter old sound data, which can cause a click.  To avoid this, once you are satisfied with your delay time, you can disconnect the clock input.  As long as you don't touch the Length knob, your delay time should now remain rock solid. 
+
+ 
+## Suggestions
+This one from forum user TanaBarbier, using Taps as a CV mangler for ADSR signals and LFOs:
+
+
+![alt text](https://raw.githubusercontent.com/demcanulty/Yokai_Holiday/main/res/Readme_illustrations/TanaBarbier_suggestion.png)
