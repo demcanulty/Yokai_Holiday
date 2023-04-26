@@ -78,11 +78,13 @@ struct Taps_Proto : Module {
     float trail_buffer[TRAIL_BUFFER_SIZE];
 
     float lastWet = 0.f;
-    bool blue_led, set_led, crossed_barrier;
+    bool blue_led = 0;
+    bool set_led = 0;
+    bool crossed_barrier = 0;
 
 
-    int inptr;
-    int rev_outptr;
+    int inptr = 0;
+    int rev_outptr = 0;
     int forw_outptr = BUFFER_SIZE / 4;
     int trailptr= 48000;
     uint32_t target_buffer_length = 48000 * 5;
@@ -90,32 +92,33 @@ struct Taps_Proto : Module {
     float target_forw_delay_distance = 2;
     float target_rev_delay_distance = 2;
     float buffer_length_param, buffer_feedback_param, reverse_location_param, forward_location_param;
-    uint32_t ptr_trail_distance;
+    uint32_t ptr_trail_distance = 0;
 
-    uint32_t fade_count;
+    uint32_t fade_count = 0;
     
 
 
-    enum PTR_STATE ptr_state;
-    enum PTR_STATE last_ptr_state;
-    int offset_pointer;
+    enum PTR_STATE ptr_state = PTR_STATE_FADE_FINISHED;
+    enum PTR_STATE last_ptr_state = PTR_STATE_FADE_FINISHED;
+    int offset_pointer = 0;
     const int fade_buffer_lookahead = 1000;
     
-    float fade_amount;
+    float fade_amount = 0;
 
     float calculated_fade_count = 7000.f;
-    float last_sample_rate;
+    float last_sample_rate = 0;
 
-    bool clock_input_state, last_clock_state;
-    uint32_t clock_sample_counter;
-    uint32_t general_counter;
-    bool go_ahead_and_do_stuff;
+    bool clock_input_state = 0;
+    bool last_clock_state = 0;
+    uint32_t clock_sample_counter = 0;
+    uint32_t general_counter = 0;
+    bool go_ahead_and_do_stuff = 0;
     #define MIN_LENGTH_SETTING  (calculated_fade_count + (float)fade_buffer_lookahead + 100.f)
 
     #define CLOCK_INPUT_ARRAY_SIZE   5
     uint32_t clock_input_array[CLOCK_INPUT_ARRAY_SIZE];
-    uint8_t  clk_array_index;
-    uint32_t last_max_count;
+    uint8_t  clk_array_index = 0;
+    uint32_t last_max_count = 0;
 
     Taps_Proto() 
     {

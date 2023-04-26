@@ -102,55 +102,59 @@ struct Taps : Module {
     float lastWet = 0.f;
 
 
-    int inptr;
-    int rev_outptr;
+    int inptr = 0;
+    int rev_outptr = 0;
     int forw_outptr = BUFFER_SIZE / 4;
     int trailptr= 48000;
     uint32_t target_buffer_length = 48000 * 5;
-    uint32_t knob_set_buffer_length;
+    uint32_t knob_set_buffer_length = 0;
     float target_forw_delay_distance = 2;
     float target_rev_delay_distance = 2;
-    float buffer_length_param, buffer_feedback_param, reverse_location_param, forward_location_param;
-    uint32_t ptr_trail_distance;
+    float buffer_length_param = 0;
+    float buffer_feedback_param = 0; 
+    float reverse_location_param = 0;
+    float forward_location_param = 0;
+    uint32_t ptr_trail_distance = 0;
 
-    uint32_t fade_count;
+    uint32_t fade_count = 0;
     
 
-    enum PTR_STATE ptr_state;
-    int offset_pointer;
+    enum PTR_STATE ptr_state = PTR_STATE_FADE_FINISHED;
+    int offset_pointer = 0;
     const int fade_buffer_lookahead = 1000;
     
     float fade_amount;
 
     float calculated_fade_count = 7000.f;
-    float last_sample_rate;
+    float last_sample_rate = 0;
 
-    bool clock_input_state, last_clock_state;
-    float clock_sample_counter;
-    int blink_sample_counter;
-    uint32_t startup_delay_counter;
-    bool go_ahead_and_do_stuff;
+    bool clock_input_state = 0;
+    bool last_clock_state = 0;
+    float clock_sample_counter = 0;
+    int blink_sample_counter = 0;
+    uint32_t startup_delay_counter = 0;
+    bool go_ahead_and_do_stuff = 0;
     #define MIN_LENGTH_SETTING  (calculated_fade_count + (float)fade_buffer_lookahead + 100.f)
 
     #define CLOCK_INPUT_ARRAY_SIZE   5
     uint32_t clock_input_array[CLOCK_INPUT_ARRAY_SIZE];
-    uint8_t  clk_array_index;
-    float clock_led_brightness;
+    uint8_t  clk_array_index = 0;
+    float clock_led_brightness = 0;
 
     float led_dim_rate = 0.5f * 480000.f;
 
-    float buffer_length_mod;
-    float buffer_feedback_mod;
-    float reverse_location_mod;
-    float forward_location_mod;
+    float buffer_length_mod = 0;
+    float buffer_feedback_mod = 0;
+    float reverse_location_mod = 0;
+    float forward_location_mod = 0;
 
-    float rev_led_brightness;
-    float buff_led_brightness;
+    float rev_led_brightness = 0;
+    float buff_led_brightness = 0;
 
-    float old_feedback;
-    int buffer_length_divider;
+    float old_feedback = 0;
+    int buffer_length_divider = 1;
     float clock_count_delta = 2;
-    int target_blink_length;
+    int target_blink_length = 0;
     
 
     Taps() 
